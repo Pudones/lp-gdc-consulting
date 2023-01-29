@@ -6,7 +6,7 @@
   background: url('../../assets/images/section-intro-bg.jpeg') 50% 50% no-repeat;
   background-size: cover;
   position: relative;
-  @include mixins.forMediumScreen {
+  @include mixins.forLargeScreen {
     background-attachment: fixed;
   }
 
@@ -24,12 +24,12 @@
     min-height: 100vh;
     position: relative;
     z-index: 1;
-    @include mixins.forMediumScreen {
+    @include mixins.forLargeScreen {
       padding: 60px 45px;
     }
 
     .section_intro {
-      @include mixins.forMediumScreen {
+      @include mixins.forLargeScreen {
         display: flex;
         flex-direction: column;
         justify-content: center;

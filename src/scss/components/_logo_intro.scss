@@ -3,7 +3,7 @@
 .section_intro_image {
   max-width: 100%;
 
-  @include mixins.forMediumScreen {
+  @include mixins.forLargeScreen {
     width: 700px;
     height: 500px;
   }

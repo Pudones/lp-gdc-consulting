@@ -1,5 +1,6 @@
 @use '../utils/variables';
 @use '../utils/fonts';
+@use '../utils/mixins';
 
 // Medidas
 .mb-15 {
@@ -31,17 +32,19 @@
   font-style: italic;
 }
 
-
-
-
 @each $fs, $value in variables.$font-size {
   .#{$fs}{
     font-size: $value;
   }
+  @include mixins.forLargeScreen {
+    .#{$fs}-d {
+      font-size: $value;
+    }
+  }
 }
 
 @each $color, $value in variables.$color {
-  .color-#{$color}{
+  .color-#{$color} {
     color: $value;
   }
 }

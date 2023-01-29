@@ -3,8 +3,4 @@
 
 .title {
   font-family: 'Playfair', serif;
-
-  @include mixins.forMediumScreen {
-    font-size: variables.$font-57;
-  }
 }
