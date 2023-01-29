@@ -1,0 +1,47 @@
+@use '../utils/variables';
+@use '../utils/fonts';
+
+// Medidas
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+
+// Texto
+
+.line38 {
+  line-height: 38px;
+}
+.line43 {
+  line-height: 43px;
+}
+.text-center {
+  text-align: center;
+}
+.text-shadow-15 {
+  text-shadow: 0 1px 4px rgba(0,0,0,.15);
+}
+.text-light {
+  font-weight: 300;
+}
+.text-italic {
+  font-style: italic;
+}
+
+
+
+
+@each $fs, $value in variables.$font-size {
+  .#{$fs}{
+    font-size: $value;
+  }
+}
+
+@each $color, $value in variables.$color {
+  .color-#{$color}{
+    color: $value;
+  }
+}

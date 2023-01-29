@@ -1,0 +1,5 @@
+@mixin forMediumScreen {
+  @media (min-width: 769px) {
+    @content
+  }
+}

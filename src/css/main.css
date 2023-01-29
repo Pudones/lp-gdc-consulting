@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+@font-face {
+  font-family: "Playfair";
+  src: url("../../assets/fonts/PlayfairDisplay/PlayfairRegular.ttf");
+  weight: 400;
+}
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: local("../../assets/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf");
+  weight: 700;
+}
+@font-face {
+  font-family: "Cardo";
+  src: url("../../assets/fonts/Cardo/Cardo-Regular.ttf");
+  weight: 400;
+}
+@font-face {
+  font-family: "Cardo";
+  src: url("../../assets/fonts/Cardo/Cardo-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cardo";
+  src: url("../../assets/fonts/Cardo/Cardo-Bold.ttf");
+  weight: 700;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.line38 {
+  line-height: 38px;
+}
+
+.line43 {
+  line-height: 43px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-shadow-15 {
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.fs16 {
+  font-size: 1.6rem;
+}
+
+.fs20 {
+  font-size: 2rem;
+}
+
+.fs21 {
+  font-size: 2.1rem;
+}
+
+.fs24 {
+  font-size: 2.4rem;
+}
+
+.fs26 {
+  font-size: 2.6rem;
+}
+
+.fs31 {
+  font-size: 3.1rem;
+}
+
+.fs36 {
+  font-size: 3.6rem;
+}
+
+.fs44 {
+  font-size: 4.4rem;
+}
+
+.fs57 {
+  font-size: 5.7rem;
+}
+
+.color-black {
+  color: black;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-blue {
+  color: #0000ee;
+}
+
+.color-purple {
+  color: #8867ba;
+}
+
+.color-purple2 {
+  color: #a58ccc;
+}
+
+.color-gold {
+  color: #b3873d;
+}
+
+.color-ice {
+  color: #e6e6e6;
+}
+
+.section_intro_image {
+  max-width: 100%;
+}
+@media (min-width: 769px) {
+  .section_intro_image {
+    width: 700px;
+    height: 500px;
+  }
+}
+
+.title {
+  font-family: "Playfair", serif;
+}
+@media (min-width: 769px) {
+  .title {
+    font-size: 5.7rem;
+  }
+}
+
+.subtitle {
+  font-family: "Cardo", Georgia, serif;
+}
+
+.section_intro_wrapper {
+  width: 100%;
+  height: 100%;
+  background: url("../../assets/images/section-intro-bg.jpeg") 50% 50% no-repeat;
+  background-size: cover;
+  position: relative;
+}
+@media (min-width: 769px) {
+  .section_intro_wrapper {
+    background-attachment: fixed;
+  }
+}
+.section_intro_wrapper .section_intro_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.section_intro_wrapper .section_intro_container {
+  padding: 168px 28px;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+@media (min-width: 769px) {
+  .section_intro_wrapper .section_intro_container {
+    padding: 60px 45px;
+  }
+}
+@media (min-width: 769px) {
+  .section_intro_wrapper .section_intro_container .section_intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.teste {
+  background-color: blue;
+  height: 200vh;
+}

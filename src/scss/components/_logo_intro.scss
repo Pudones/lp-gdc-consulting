@@ -1,0 +1,10 @@
+@use '../utils/mixins';
+
+.section_intro_image {
+  max-width: 100%;
+
+  @include mixins.forMediumScreen {
+    width: 700px;
+    height: 500px;
+  }
+}

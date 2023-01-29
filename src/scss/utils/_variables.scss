@@ -1,0 +1,42 @@
+// Font Size
+$font-16: 1.6rem;
+$font-20: 2.0rem;
+$font-21: 2.1rem;
+$font-24: 2.4rem;
+$font-26: 2.6rem;
+$font-31: 3.1rem;
+$font-36: 3.6rem;
+$font-44: 4.4rem;
+$font-57: 5.7rem;
+
+$font-size: (
+  "fs16": $font-16,
+  "fs20": $font-20,
+  "fs21": $font-21,
+  "fs24": $font-24,
+  "fs26": $font-26,
+  "fs31": $font-31,
+  "fs36": $font-36,
+  "fs44": $font-44,
+  "fs57": $font-57
+);
+
+// Cores
+
+$black: black;
+$white: white;
+$blue: #0000ee;
+$purple: #8867ba;
+$purple2: #a58ccc;
+$gold: #b3873d;
+$ice: #e6e6e6;
+
+$color: (
+  "black": $black,
+  "white": $white,
+  "blue": $blue,
+  "purple": $purple,
+  "purple2": $purple2,
+  "gold": $gold,
+  "ice": $ice
+);
