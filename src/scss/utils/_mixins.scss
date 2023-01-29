@@ -1,4 +1,4 @@
-@mixin forMediumScreen {
+@mixin forLargeScreen {
   @media (min-width: 769px) {
     @content
   }
