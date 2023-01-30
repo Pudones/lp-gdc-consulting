@@ -1,0 +1,13 @@
+@use '../utils/mixins';
+
+.section_about_content {
+
+  @include mixins.forLargeScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 30vh;
+    width: 100%;
+    flex: 45%;
+  }
+}

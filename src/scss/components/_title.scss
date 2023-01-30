@@ -3,4 +3,24 @@
 
 .title {
   font-family: 'Playfair', serif;
+  font-weight: 400;
 }
+
+.title_intro {
+  @include mixins.forLargeScreen {
+    font-size: variables.$font-57;
+  }
+}  
+
+.title_growth {
+  @include mixins.forLargeScreen {
+    font-size: variables.$font-57;
+  }
+}
+
+@include mixins.forLargeScreen {
+  .title_about--right {
+    text-align: right;
+  }
+}
+

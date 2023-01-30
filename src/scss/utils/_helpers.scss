@@ -2,17 +2,45 @@
 @use '../utils/fonts';
 @use '../utils/mixins';
 
+// Positions
+.relative {
+  position: relative;
+}
+
 // Medidas
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
 .mb-15 {
   margin-bottom: 15px;
 }
 .mb-30 {
   margin-bottom: 30px;
 }
+.mb-35 {
+  margin-bottom: 35px;
+}
 
+// Overlay
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
 
 // Texto
-
+.line23 {
+  line-height: 23px;
+}
+.line30 {
+  line-height: 30px;
+}
 .line38 {
   line-height: 38px;
 }
@@ -30,6 +58,11 @@
 }
 .text-italic {
   font-style: italic;
+}
+
+// Other
+.zin1 {
+  z-index: 1;
 }
 
 @each $fs, $value in variables.$font-size {

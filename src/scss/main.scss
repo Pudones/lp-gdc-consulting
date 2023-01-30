@@ -9,11 +9,15 @@
 @use '../scss/components/title';
 @use '../scss/components/subtitle';
 @use '../scss/components/text';
+@use '../scss/components/growth_card';
+@use '../scss/components/growth_image';
+@use '../scss/components/growth_text';
+@use '../scss/components/about_content';
 
 // Blocks
 @use '../scss/blocks/section_intro';
-@use '../scss/blocks/teste';
-@use '../scss/blocks/about';
+@use '../scss/blocks/section_growth';
+@use '../scss/blocks/section_about';
 
 
 
