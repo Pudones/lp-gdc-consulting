@@ -14,7 +14,7 @@ html {
   weight: 400;
 }
 @font-face {
-  font-family: "PlayfairDisplay";
+  font-family: "Playfair";
   src: local("../../assets/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf");
   weight: 700;
 }
@@ -241,7 +241,7 @@ html {
   height: 200vh;
 }
 
-.about-wrapper {
+.about_wrapper {
   padding: 50px 0;
   background-image: url("../../assets/images/about-background.jpg");
   background-repeat: no-repeat;
@@ -250,11 +250,11 @@ html {
   background-position: center;
 }
 @media (min-width: 769px) {
-  .about-wrapper {
+  .about_wrapper {
     height: 100vh;
   }
 }
-.about-wrapper .about-overlay {
+.about_wrapper .about_overlay {
   position: fixed;
   top: 0;
   right: 0;
@@ -262,14 +262,14 @@ html {
   left: 0;
   background: rgba(0, 0, 0, 0.4);
 }
-.about-wrapper .about-container {
+.about_wrapper .about_container {
   max-width: 1460px;
   padding: 0 35px;
   width: 100%;
   margin: 0 auto;
   height: 100%;
 }
-.about-wrapper .about {
+.about_wrapper .about {
   position: relative;
   z-index: 1;
   display: flex;
@@ -278,14 +278,14 @@ html {
   flex-direction: column;
 }
 @media (min-width: 769px) {
-  .about-wrapper .about {
+  .about_wrapper .about {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
   }
 }
 @media (min-width: 769px) {
-  .about-wrapper .about-content {
+  .about_wrapper .about_content {
     flex: 50%;
   }
 }

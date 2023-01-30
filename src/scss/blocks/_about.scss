@@ -1,6 +1,6 @@
 @use '../utils/mixins';
 
-.about-wrapper {
+.about_wrapper {
   padding: 50px 0;
   background: {
     image: url('../../assets/images/about-background.jpg');
@@ -14,7 +14,7 @@
     height: 100vh;
   }
 
-  .about-overlay {
+  .about_overlay {
     position: fixed;
     top: 0;
     right: 0;
@@ -23,7 +23,7 @@
     background: rgba(0, 0, 0, .4);
   }
 
-  .about-container {
+  .about_container {
     max-width: 1460px;
     padding: 0 35px;
     width: 100%;
@@ -47,7 +47,7 @@
 
   }
 
-  .about-content {
+  .about_content {
     @include mixins.forLargeScreen {
       flex: 50%;
     }
