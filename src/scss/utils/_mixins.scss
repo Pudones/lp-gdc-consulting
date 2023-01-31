@@ -1,5 +1,11 @@
 @mixin forLargeScreen {
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     @content
   }
+};
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

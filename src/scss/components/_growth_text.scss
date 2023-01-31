@@ -1,0 +1,11 @@
+@use '../utils/mixins';
+
+.section_growth_text {
+  @include mixins.flexCenter;
+  flex-direction: column;
+  padding: 40px 28px;
+
+  @include mixins.forLargeScreen {
+    width: 50%;
+  }
+}

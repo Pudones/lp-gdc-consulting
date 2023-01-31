@@ -1,18 +1,18 @@
 @font-face {
   font-family: 'Playfair';
   src: url('../../assets/fonts/PlayfairDisplay/PlayfairRegular.ttf');
-  weight: 400;
+  font-weight: 400;
 }
 @font-face {
-  font-family: 'PlayfairDisplay';
+  font-family: 'Playfair';
   src: local('../../assets/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf');
-  weight: 700;
+  font-weight: 700;
 }
 
 @font-face {
   font-family: 'Cardo';
   src: url('../../assets/fonts/Cardo/Cardo-Regular.ttf');
-  weight: 400;
+  font-weight: 400;
 }
 @font-face {
   font-family: 'Cardo';
@@ -22,5 +22,16 @@
 @font-face {
   font-family: 'Cardo';
   src: url('../../assets/fonts/Cardo/Cardo-Bold.ttf');
-  weight: 700;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'RobotoCondensed';
+  src: url('../../assets/fonts/RobotoCondensed/RobotoCondensed-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'RobotoCondensed';
+  src: url('../../assets/fonts/RobotoCondensed/RobotoCondensed-Regular.ttf');
+  font-weight: 400;
 }
