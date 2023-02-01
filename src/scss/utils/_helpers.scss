@@ -17,12 +17,76 @@
 .mb-15 {
   margin-bottom: 15px;
 }
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-25 {
+  margin-bottom: 25px;
+}
 .mb-30 {
   margin-bottom: 30px;
 }
 .mb-35 {
   margin-bottom: 35px;
 }
+.mb-40 {
+  margin-bottom: 40px;
+}
+.mb-45 {
+  margin-bottom: 45px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.pad-40 {
+  padding: 40px;
+}
+
+// Texto
+.line23 {
+  line-height: 23px;
+}
+.line26 {
+  line-height: 26px;
+}
+.line30 {
+  line-height: 30px;
+}
+.line38 {
+  line-height: 38px;
+}
+.line43 {
+  line-height: 43px;
+}
+
+.ls4 {
+  letter-spacing: 0.4px;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-shadow-15 {
+  text-shadow: 0 1px 4px rgba(0,0,0,.15);
+}
+.text-light {
+  font-weight: 300;
+}
+.text-500 {
+  font-weight: 500;
+}
+.text-bold {
+  font-weight: 700;
+}
+.text-italic {
+  font-style: italic;
+}
+
+.roboto {
+  font-family: 'RobotoCondensed';
+}
+
 
 // Overlay
 .overlay {
@@ -34,36 +98,14 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-// Texto
-.line23 {
-  line-height: 23px;
-}
-.line30 {
-  line-height: 30px;
-}
-.line38 {
-  line-height: 38px;
-}
-.line43 {
-  line-height: 43px;
-}
-.text-center {
-  text-align: center;
-}
-.text-shadow-15 {
-  text-shadow: 0 1px 4px rgba(0,0,0,.15);
-}
-.text-light {
-  font-weight: 300;
-}
-.text-italic {
-  font-style: italic;
-}
 
 // Other
 .zin1 {
   z-index: 1;
 }
+
+
+// Eachs
 
 @each $fs, $value in variables.$font-size {
   .#{$fs}{
