@@ -1,0 +1,19 @@
+@use '../utils/mixins';
+
+.section_plans_title {
+  display: flex;
+  gap: 20px;
+
+  @include mixins.forLargeScreen {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section_plans_title_number {
+    @include mixins.flexCenter;
+    min-width: 50px;
+    height: 50px;
+    border: 1px solid black;
+  }
+}
+

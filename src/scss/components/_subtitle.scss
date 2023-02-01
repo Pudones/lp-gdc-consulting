@@ -1,3 +1,16 @@
+@use '../utils/mixins';
+@use '../utils/variables';
+
 .subtitle {
   font-family: 'Cardo', Georgia, serif;
+}
+
+.subtitle_plans {
+  color: variables.$gold;
+}
+
+.subtitle_plans--center {
+  @include mixins.forLargeScreen {
+    text-align: center;
+  }
 }
