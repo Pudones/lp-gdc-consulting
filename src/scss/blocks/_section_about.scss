@@ -7,6 +7,10 @@
   position: relative;
   padding: 40px;
 
+  @include mixins.forLargeScreen {
+    background-attachment: fixed;
+  }
+
   .section_about_container {
     max-width: 540px;
     margin: 0 auto;

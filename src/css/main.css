@@ -436,6 +436,11 @@ html {
   position: relative;
   padding: 40px;
 }
+@media (min-width: 768px) {
+  .section_about_wrapper {
+    background-attachment: fixed;
+  }
+}
 .section_about_wrapper .section_about_container {
   max-width: 540px;
   margin: 0 auto;
