@@ -1,0 +1,28 @@
+@use '../utils/helpers';
+@use '../utils/variables';
+@use '../utils/mixins';
+
+
+.section_knowMe_wrapper {
+  background: url('../../assets/images/know-me-bg.jfif') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  padding: 40px;
+
+  @include mixins.forLargeScreen {
+    background-attachment: fixed;
+  }
+
+  .section_knowMe_container {
+    background-color: variables.$white;
+    max-width: 540px;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: 28px 18px;
+
+    @include mixins.forLargeScreen {
+      max-width: 1000px;
+    }
+  }
+}

@@ -4,36 +4,27 @@
   background: url('../../assets/images/section-intro-bg.jpeg') 50% 50% no-repeat;
   background-size: cover;
   position: relative;
+
   @include mixins.forLargeScreen {
     background-attachment: fixed;
   }
 
-  .section_intro_overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-
   .section_intro_container {
+    height: 100%;
     padding: 70px 28px;
     min-height: 100vh;
     position: relative;
     z-index: 1;
+
     @include mixins.forLargeScreen {
       padding: 60px 45px;
     }
 
     .section_intro {
       @include mixins.forLargeScreen {
-        display: flex;
+        @include mixins.flexCenter;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
       }
-
     }
   }
 }
