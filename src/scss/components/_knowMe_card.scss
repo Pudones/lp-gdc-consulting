@@ -1,0 +1,24 @@
+@use '../utils/mixins';
+
+.section_knowMe_card_parent {
+  @include mixins.forLargeScreen {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    column-gap: 15px;
+  }
+
+  .section_knowMe_card {
+    @include mixins.flexCenter;
+    flex-direction: column;
+
+    @include mixins.forLargeScreen {
+      flex: 30%;
+    }
+
+    .section_knowMe_image {
+      height: 250px;
+      width: 250px;
+    }
+  }
+}

@@ -4,8 +4,3 @@
   font-family: 'RobotoCondensed', sans-serif;
 }
 
-.text_plans--center {
-  @include mixins.forLargeScreen {
-    text-align: center;
-  }
-}

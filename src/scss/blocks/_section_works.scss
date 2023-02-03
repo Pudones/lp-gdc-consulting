@@ -1,0 +1,20 @@
+@use '../utils/variables';
+@use '../utils/mixins';
+
+.section_works_wrapper {
+  background-color: variables.$beige;
+
+  .section_works_container {
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 28px;
+    // background: red;
+
+    @include mixins.forLargeScreen {
+      max-width: variables.$large;
+      padding: 80px;
+    }
+
+  }
+}
