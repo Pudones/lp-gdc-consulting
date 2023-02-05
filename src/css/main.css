@@ -519,6 +519,7 @@ html {
   padding: 0;
   margin: 0;
   width: 100%;
+  left: 0;
 }
 .slick-dots li {
   position: relative;
@@ -796,7 +797,6 @@ html {
 
 @media (min-width: 768px) {
   .testimonials_carousel_wrapper {
-    max-width: 1000px;
     margin: 0 auto;
     padding: 40px;
   }
@@ -809,6 +809,10 @@ html {
   width: 500px;
   height: 100%;
   padding: 20px;
+}
+.testimonials_carousel_wrapper .testimonials_carousel_item.testimonials_carousel_item p {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .slick-track.slick-track {
