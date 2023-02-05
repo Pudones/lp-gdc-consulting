@@ -613,7 +613,7 @@ html {
   justify-content: center;
   align-items: center;
   position: relative;
-  background: url(../../assets/images/growth-background.png) no-repeat;
+  background: url(../../assets/images/growth-background.webp) no-repeat;
   background-size: cover;
   background-position: bottom right;
   height: 40vh;
@@ -856,7 +856,7 @@ html {
 }
 
 .intro_wrapper {
-  background: url("../../assets/images/section-intro-bg.jpeg") 50% 50% no-repeat;
+  background: url("../../assets/images/section-intro-bg.webp") 50% 50% no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -895,7 +895,7 @@ html {
 }
 
 .about_wrapper {
-  background: url("../../assets/images/about-background.jpg") no-repeat;
+  background: url("../../assets/images/about-background.webp") no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -958,7 +958,7 @@ html {
 }
 
 .knowMe_wrapper {
-  background: url("../../assets/images/know-me-bg.jpg") no-repeat;
+  background: url("../../assets/images/know-me-bg.webp") no-repeat;
   background-size: cover;
   background-position: center center;
   min-height: 100vh;
@@ -1006,7 +1006,7 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url("../../assets/images/testimonials-bg.jpg") no-repeat;
+  background: url("../../assets/images/testimonials-bg.webp") no-repeat;
   background-size: cover;
   background-position: center center;
   height: 30vh;
@@ -1044,7 +1044,7 @@ html {
 
 .brands_wrapper {
   min-height: 100vh;
-  background: url("../../assets/images/brand-bg.jpg") no-repeat;
+  background: url("../../assets/images/brand-bg.webp") no-repeat;
   background-size: cover;
   background-position: center;
 }
