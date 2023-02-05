@@ -6,18 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./src/css/main.css">
+  <link rel="stylesheet" href="./src/css/slick.css">
+  <link rel="stylesheet" href="./src/css/slick-theme.css">
   <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+  <script defer src="./src/js/jquery-3.6.3.min.js"></script>
+  <script defer src="./src/js/slick.min.js"></script>
+  <script defer src="./src/js/carousel.js"></script>
   <title>GDC Consulting</title>
 </head>
 
 <body>
   <main>
 
-    <section class="section_intro_wrapper">
+    <section class="intro_wrapper">
       <div class="overlay"></div>
-      <div class="section_intro_container">
-        <div class="section_intro">
-          <img class="section_intro_image mb-30" src="./assets/images/asset 1.webp" alt="Logo GDC Consulting">
+      <div class="intro_container">
+        <div class="intro">
+          <img class="intro_image mb-30" src="./assets/images/asset 1.webp" alt="Logo GDC Consulting">
           <h1 class="title title_intro fs36 color-white text-center text-light text-shadow-15 line43 mb-15">Services to
             Bridge <em class="text-italic">Your</em> Evolution</h1>
           <p class="subtitle fs26 color-white text-center text-shadow-15 text-italic line38">"Those who are crazy enough
@@ -27,7 +32,7 @@
       </div>
     </section>
 
-    <section class="section_growth_wrapper">
+    <section class="growth_wrapper">
       <div class="section_growth_card">
         <div class="overlay"></div>
         <h2 class="title title_growth fs36 color-white text-center zin1">Working <em class="text-italic">Your</em> <br>
@@ -46,12 +51,12 @@
       </div>
     </section>
 
-    <section class="section_about_wrapper">
+    <section class="about_wrapper">
       <div class="overlay"></div>
-      <div class="section_about_container relative zin1">
-        <div class="section_about">
+      <div class="about_container relative zin1">
+        <div class="about">
 
-          <div class="section_about_content mb-30">
+          <div class="about_content mb-30">
             <h2 class="title fs36 fs44-d color-white mb-15">Walking The Talk</h2>
             <p class="text fs20 color-white text-light">Beyond mere promises, the work we do must have an impact. But
               how do we
@@ -61,7 +66,7 @@
               hard work, blended with experts' advices.</p>
           </div>
 
-          <div class="section_about_content mb-30">
+          <div class="about_content mb-30">
             <h2 class="title fs36 fs44-d color-white mb-15">Building on cultures of values</h2>
             <p class="text fs20 color-white text-light line30">With trust at the heart of all decisions, your business
               will not be where it
@@ -70,7 +75,7 @@
               how you empower </p>
           </div>
 
-          <div class="section_about_content mb-30">
+          <div class="about_content mb-30">
             <h2 class="title fs36 fs44-d color-white mb-15">Bringing People Together</h2>
             <p class="text fs20 color-white text-light line30">Although not always roses and peaches, there is so much
               good in the world! We
@@ -81,7 +86,7 @@
             <p class="text fs20 color-white text-light line30">There are no boundaries to communities</p>
           </div>
 
-          <div class="section_about_content title_about--right">
+          <div class="about_content title_about--right">
             <h2 class="title fs36 fs44-d color-white mb-15">Living Creativity</h2>
             <p class="text fs20 color-white text-light line30">A free mind is a creative mind, and a creative mind sees
               no limit. With an
@@ -96,16 +101,17 @@
 
     </section>
 
-    <section class="section_plans_wrapper">
-      <div class="section_plans_container pad-40">
+    <section class="plans_wrapper">
+      <div class="plans_container pad-40">
 
-        <h2 class="title fs36 fs44-d text-center mb-15">How to Approach <em class="text-italic">Your</em> New Frontiers?</h2>
+        <h2 class="title fs36 fs44-d text-center mb-15">How to Approach <em class="text-italic">Your</em> New Frontiers?
+        </h2>
         <h3 class="subtitle f-gold fs26 text-center mb-40">We Must Create Tangible Action Plans</h3>
 
 
-        <div class="section_plans_content_wrapper">
+        <div class="plans_content_wrapper">
 
-          <div class="section_plans_content mb-50">
+          <div class="plans_content mb-50">
             <div class="section_plans_title mb-5">
               <div class="section_plans_title_number fs26 text-bold roboto">1</div>
               <h4 class="subtitle text-center-d fs24 text-500">Setting Achievable Objectives</h4>
@@ -115,7 +121,7 @@
               therefore the start is where you look to the stars and find a bearing.</p>
           </div>
 
-          <div class="section_plans_content mb-50">
+          <div class="plans_content mb-50">
             <div class="section_plans_title mb-5">
               <div class="section_plans_title_number fs26 text-bold roboto">2</div>
               <h4 class="subtitle text-center-d fs24 text-500">Articulating The Tools You Will Need</h4>
@@ -125,7 +131,7 @@
               available. But what does that look like, and what will you need?</p>
           </div>
 
-          <div class="section_plans_content mb-50">
+          <div class="plans_content mb-50">
             <div class="section_plans_title mb-5">
               <div class="section_plans_title_number fs26 text-bold roboto">3</div>
               <h4 class="subtitle text-center-d fs24 text-500">"Action!" Activate And Do What You Do Best</h4>
@@ -135,7 +141,7 @@
               through trial & error. So we must do to understand!</p>
           </div>
 
-          <div class="section_plans_content mb-50">
+          <div class="plans_content mb-50">
             <div class="section_plans_title mb-5">
               <div class="section_plans_title_number fs26 text-bold roboto">4</div>
               <h4 class="subtitle text-center-d fs24 text-500">Assess - Evaluate - Update - Repeat 🔁</h4>
@@ -150,8 +156,8 @@
       </div>
     </section>
 
-    <section class="section_knowMe_wrapper">
-      <div class="section_knowMe_container">
+    <section class="knowMe_wrapper">
+      <div class="knowMe_container">
         <h2 class="title text-center fs36 fs44-d mb-5">Thomas Gonçalves de Carvalho</h2>
         <h3 class="subtitle f-gold text-center fs26 mb-30">Getting To Know Me</h3>
 
@@ -189,20 +195,23 @@
       </div>
     </section>
 
-    <section class="section_works_wrapper">
-      <div class="section_works_container">
+    <section class="works_wrapper">
+      <div class="works_container">
         <h2 class="title fs36 fs44-d text-center text-regular mb-30">GET TO KNOW SOME OF MY WORK</h2>
         <div class="section_works_grid_container">
 
-          <a href="https://www.linkedin.com/pulse/does-successful-brand-building-always-generate-equity-de-carvalho/" id="grid_element_1" class="section_works_grid_element relative">
+          <a href="https://www.linkedin.com/pulse/does-successful-brand-building-always-generate-equity-de-carvalho/"
+            id="grid_element_1" class="section_works_grid_element relative">
             <div class="overlay"></div>
             <div class="grid_element_content relative zin1">
               <h3 class="subtitle fs24 text-center text-regular f-white">Linkedin Article 1</h3>
-              <p class="text fs16 text-center text-regular f-white">Does a successful Brand Building always generate Brand Equity?</p>
+              <p class="text fs16 text-center text-regular f-white">Does a successful Brand Building always generate
+                Brand Equity?</p>
             </div>
           </a>
 
-          <a href="https://www.facebook.com/brandconnectth/videos/1864350380501303/" id="grid_element_2" class="section_works_grid_element relative">
+          <a href="https://www.facebook.com/brandconnectth/videos/1864350380501303/" id="grid_element_2"
+            class="section_works_grid_element relative">
             <div class="overlay"></div>
             <div class="grid_element_content relative zin1">
               <h3 class="subtitle fs24 text-center text-regular f-white">Diplomatico Launch Party</h3>
@@ -210,7 +219,8 @@
             </div>
           </a>
 
-          <a href="https://www.facebook.com/PerrierTH/videos/350499028948910/" id="grid_element_3" class="section_works_grid_element relative">
+          <a href="https://www.facebook.com/PerrierTH/videos/350499028948910/" id="grid_element_3"
+            class="section_works_grid_element relative">
             <div class="overlay"></div>
             <div class="grid_element_content relative zin1">
               <h3 class="subtitle fs24 text-center text-regular f-white">Perrier Booth</h3>
@@ -218,7 +228,8 @@
             </div>
           </a>
 
-          <a href="https://www.linkedin.com/pulse/life-brands-thomas-de-carvalho/" id="grid_element_4" class="section_works_grid_element relative">
+          <a href="https://www.linkedin.com/pulse/life-brands-thomas-de-carvalho/" id="grid_element_4"
+            class="section_works_grid_element relative">
             <div class="overlay"></div>
             <div class="grid_element_content relative zin1">
               <h3 class="subtitle fs24 text-center text-regular f-white">Linkedin Article 2</h3>
@@ -230,6 +241,203 @@
         </div>
       </div>
     </section>
+
+    <section class="testimonials_wrapper">
+      <div class="testimonials_intro relative">
+        <div class="overlay"></div>
+        <h2 class="title fs36 f-white text-center mb-15 text-regular relative">Those Who Would Agree</h2>
+        <h3 class="subtitle fs20 f-white text-center text-regular relative">Feedback from a few industry professionals
+        </h3>
+      </div>
+
+      <!-- Mobile -->
+      <div class="testimonials_container relative pad-40">
+
+        <div class="testimonials_card_wrapper mb-50">
+          <img class="testimonials--large mb-15" src="./assets/images/testimonials/alfonso.webp"
+            alt="Alfonso Castillo Photo">
+          <div class="testimonials_card_text">
+            <h2 class="subtitle fs24 mb-5">Alfonso Castillo</h2>
+            <h3 class="text fs16 f-gold text-bold mb-5">Asia Pacific Marketing Manager</h3>
+            <p class="text fs16 text-italic text-light line23">
+              I had the opportunity of working with Thomas for about 3 years while he was leading the Marketing
+              department of one client company that represented Diplomático Rum in Thailand. His insights, leadership,
+              hard work, creativity and in depth analysis led the brand to growth over that period of time around 300%
+              in sales plus becoming one of the leaders in the segment. Thomas was a key piece inside the Sales and
+              Marketing team and my experience working with him was a joy both personally and professionally.
+            </p>
+          </div>
+        </div>
+
+        <div class="testimonials_card_wrapper mb-50">
+          <img class="testimonials--small mb-15" src="./assets/images/testimonials/sarah.webp"
+            alt="Sarah Yewdall Photo">
+          <div class="testimonials_card_text">
+            <h2 class="subtitle fs24 mb-5">Sarah Yewdall</h2>
+            <h3 class="text fs16 f-gold text-bold mb-5">Director | Entrepreneur | Business Owner</h3>
+            <p class="text fs16 text-italic text-light line23">
+              Thomas handles himself and embraces his work in a way of someone with many more years than him, sometimes
+              I forget how young he is!! So with the maturity in work approach but the dynamic energy of a young person,
+              this is a star quality hard to find. He is also very good at networking and very capable of multi layered
+              thinking.
+            </p>
+          </div>
+        </div>
+
+        <div class="testimonials_card_wrapper mb-50">
+          <img class="testimonials--small mb-15" src="./assets/images/testimonials/paul.webp" alt="Paul Marshall Photo">
+          <div class="testimonials_card_text">
+            <h2 class="subtitle fs24 mb-5">Paul Marshall</h2>
+            <h3 class="text fs16 f-gold text-bold mb-5">CEO | Director | Coach</h3>
+            <p class="text fs16 text-italic text-light line23">Thomas is an extremely talented individual. He is a
+              natural leader with an impeccable work ethic. Given an opportunity ‘Thomas will seize the day.’ Given an
+              opportunity where there is true passion and talent ‘Thomas will conquer.’</p>
+          </div>
+        </div>
+
+        <div class="testimonials_card_wrapper mb-50">
+          <img class="testimonials--large mb-15" src="./assets/images/testimonials/david.webp" alt="David Ghani Photo">
+          <div class="testimonials_card_text">
+            <h2 class="subtitle fs24 mb-5">David Ghani</h2>
+            <h3 class="text fs16 f-gold text-bold mb-5">Entrepreneur | Spirits Importer | Business Owner</h3>
+            <p class="text fs16 text-italic text-light line23">I have had the pleasure of working with Thomas both in
+              China and Thailand over a number of years. He has a deep understanding of building premium brands in Asia,
+              in both a sales and marketing capacity, as well as being strong relationship builder within the trade.
+            </p>
+          </div>
+        </div>
+
+        <div class="testimonials_card_wrapper mb-50">
+          <img class="testimonials--small mb-15" src="./assets/images/testimonials/alan.webp" alt="David Ghani Photo">
+          <div class="testimonials_card_text">
+            <h2 class="subtitle fs24 mb-5">Alan Chen</h2>
+            <h3 class="text fs16 f-gold text-bold mb-5">Spirits Importer | Business Owner</h3>
+            <p class="text fs16 text-italic text-light line23">Thomas is the real deal go-getter! Give him the target and that's what he'll bring. I guess that's the Swiss in him!</p>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <!-- Desktop -->
+      <div class="testimonials_container_d">
+        <div class="testimonials_carousel_wrapper">
+
+          <div class="testimonials_carousel_item">
+            <img class="testimonials--large mb-15" src="./assets/images/testimonials/alfonso.webp" alt="Alfonso Castillo Photo">
+            <h2 class="subtitle fs24 fs36-d mb-5">Alfonso Castillo</h2>
+            <h3 class="text fs16 fs24 f-gold text-bold mb-5">Asia Pacific Marketing Manager</h3>
+            <p class="text fs16 fs20-d text-center-d text-italic text-light line23 line36-d">
+              I had the opportunity of working with Thomas for about 3 years while he was leading the Marketing
+              department of one client company that represented Diplomático Rum in Thailand. His insights, leadership,
+              hard work, creativity and in depth analysis led the brand to growth over that period of time around 300%
+              in sales plus becoming one of the leaders in the segment. Thomas was a key piece inside the Sales and
+              Marketing team and my experience working with him was a joy both personally and professionally.
+            </p>
+          </div>
+
+          <div class="testimonials_carousel_item">
+            <img class="testimonials--small mb-15" src="./assets/images/testimonials/sarah.webp"
+            alt="Sarah Yewdall Photo">
+            <h2 class="subtitle fs24 fs36-d mb-5">Sarah Yewdall</h2>
+            <h3 class="text fs16 fs24 f-gold text-bold mb-5">Director | Entrepreneur | Business Owner</h3>
+            <p class="text fs16 fs20-d text-center-d text-italic text-light line23 line36-d">Thomas handles himself and embraces his work in a way of someone with many more years than him, sometimes
+              I forget how young he is!! So with the maturity in work approach but the dynamic energy of a young person,
+              this is a star quality hard to find. He is also very good at networking and very capable of multi layered
+              thinking.</p>
+          </div>
+
+          <div class="testimonials_carousel_item">
+            <img class="testimonials--small mb-15" src="./assets/images/testimonials/paul.webp" alt="Paul Marshall Photo">
+            <h2 class="subtitle fs24 fs36-d mb-5">Paul Marshall</h2>
+            <h3 class="text fs16 fs24 f-gold text-bold mb-5">CEO | Director | Coach</h3>
+            <p class="text fs16 fs20-d text-center-d text-italic text-light line23 line36-d">Thomas is an extremely talented individual. He is a
+              natural leader with an impeccable work ethic. Given an opportunity ‘Thomas will seize the day.’ Given an
+              opportunity where there is true passion and talent ‘Thomas will conquer.’</p>
+          </div>
+
+          <div class="testimonials_carousel_item">
+            <img class="testimonials--large mb-15" src="./assets/images/testimonials/david.webp" alt="David Ghani Photo">
+            <h2 class="subtitle fs24 fs36-d mb-5">David Ghani</h2>
+            <h3 class="text fs16 fs24 f-gold text-bold mb-5">Entrepreneur | Spirits Importer | Business Owner</h3>
+            <p class="text fs16 fs20-d text-center-d text-italic text-light line23 line36-d">I have had the pleasure of working with Thomas both in
+              China and Thailand over a number of years. He has a deep understanding of building premium brands in Asia,
+              in both a sales and marketing capacity, as well as being strong relationship builder within the trade.</p>
+          </div>
+
+          <div class="testimonials_carousel_item">
+            <img class="testimonials--small mb-15" src="./assets/images/testimonials/alan.webp" alt="Alan Chen Photo">
+            <h2 class="subtitle fs24 fs36-d mb-5">Alan Chen</h2>
+            <h3 class="text fs16 fs24 f-gold text-bold mb-5">Spirits Importer | Business Owner</h3>
+            <p class="text fs16 fs20-d text-center-d text-italic text-light line23 line36-d">Thomas is the real deal go-getter! Give him the target and that's what he'll bring. I guess that's the Swiss in him!</p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="brands_wrapper pad-40 relative">
+      <div class="overlay"></div>
+      <div class="brands_container relative">
+        <h2 class="title fs44 text-regular text-center mb-45 prevent-select">Brands & Partners</h2>
+        <div class="brands_grid_container">
+
+          <div class="brands_logo_parent">
+            <img class="brands_logo prevent-pointer" src="./assets/images/brands/brand1.webp" alt="Mandarin Oriental Bangkok Logo"
+              id="brand1">
+          </div>
+
+          <div class="brands_logo_parent">
+            <img class="brands_logo prevent-pointer" src="./assets/images/brands/brand2.webp" alt="Perrier Logo" id="brand2">
+          </div>
+
+          <div class="brands_logo_parent">
+            <img class="brands_logo prevent-pointer" src="./assets/images/brands/brand3.webp" alt="Préfleuri Logo" id="brand3">
+          </div>
+
+          <div class="brands_logo_parent">
+            <img class="brands_logo prevent-pointer" src="./assets/images/brands/brand4.webp" alt="Diplomatico Ron Logo" id="brand4">
+          </div>
+
+          <div class="brands_logo_parent">
+            <img class="brands_logo prevent-pointer" src="./assets/images/brands/brand5.webp" alt="Marriot Logo" id="brand5">
+          </div>
+
+          <div class="brands_logo_parent">
+            <img class="brands_logo prevent-pointer" src="./assets/images/brands/brand6.webp" alt="Fever Tree Ron Logo" id="brand6">
+          </div>
+
+          <div class="brands_logo_parent">
+            <img class="brands_logo prevent-pointer" src="./assets/images/brands/brand7.webp" alt="Fernet Branca Logo" id="brand7">
+          </div>
+
+          <div class="brands_logo_parent">
+            <img class="brands_logo prevent-pointer" src="./assets/images/brands/brand8.webp" alt="Fentimans Logo" id="brand8">
+          </div>
+
+          <div class="brands_logo_parent">
+            <img class="brands_logo prevent-pointer" src="./assets/images/brands/brand9.webp" alt="Evan Williams Bourbon Logo" id="brand9">
+          </div>
+
+          <div class="brands_logo_parent">
+            <img class="brands_logo prevent-pointer" src="./assets/images/brands/brand10.webp" alt="Giffard Logo" id="brand10">
+          </div>
+
+          <div class="brands_logo_parent">
+            <img class="brands_logo prevent-pointer" src="./assets/images/brands/brand11.webp" alt="Muestra Ocho Tequila Logo" id="brand11">
+          </div>
+
+          <div class="brands_logo_parent">
+            <img class="brands_logo prevent-pointer" src="./assets/images/brands/brand12.webp" alt="Casa Noble Logo" id="brand12">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
   </main>
 
 </body>

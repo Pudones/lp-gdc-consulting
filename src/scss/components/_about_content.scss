@@ -1,6 +1,6 @@
 @use '../utils/mixins';
 
-.section_about_content {
+.about_content {
 
   @include mixins.forLargeScreen {
     display: flex;

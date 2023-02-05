@@ -3,6 +3,8 @@
 @use '../scss/utils/fonts';
 @use '../scss/utils/helpers';
 @use '../scss/utils/mixins';
+@use '../scss/slick/slick';
+@use '../scss/slick/slick-theme';
 
 // Components
 @use '../scss/components/logo_intro';
@@ -16,14 +18,21 @@
 @use '../scss/components/plans_title';
 @use '../scss/components/knowMe_card';
 @use '../scss/components/works_grid';
+@use '../scss/components/testimonials_card';
+@use '../scss/components/testimonials_carousel';
+@use '../scss/components/brands_grid';
+
 
 // Blocks
-@use '../scss/blocks/section_intro';
-@use '../scss/blocks/section_growth';
-@use '../scss/blocks/section_about';
-@use '../scss/blocks/section_plans';
-@use '../scss/blocks/section_knowMe';
-@use '../scss/blocks/section_works';
+@use '../scss/blocks/intro';
+@use '../scss/blocks/growth';
+@use '../scss/blocks/about';
+@use '../scss/blocks/plans';
+@use '../scss/blocks/knowMe';
+@use '../scss/blocks/works';
+@use '../scss/blocks/testimonials';
+@use '../scss/blocks/brands';
+
 
 
 

@@ -1,11 +1,11 @@
 @use '../utils/mixins';
 @use '../utils/variables';
 
-.section_plans_wrapper {
+.plans_wrapper {
   min-height: 100vh;
   background-color: variables.$beige;
 
-  .section_plans_container {
+  .plans_container {
     @include mixins.flexCenter;
     flex-direction: column;
     min-height: 100vh;
@@ -16,12 +16,12 @@
       max-width: variables.$large;
     }
 
-    .section_plans_content_wrapper {
+    .plans_content_wrapper {
       @include mixins.forLargeScreen {
         display: flex;
         gap: 30px;
       }
-      .section_plans_content {
+      .plans_content {
         @include mixins.forLargeScreen {
           flex: 25%;
         }

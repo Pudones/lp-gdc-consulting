@@ -51,6 +51,7 @@
 .pad-40 {
   padding: 40px;
 }
+
 .pad-80 {
   padding: 80px;
 }
@@ -68,12 +69,26 @@
   line-height: 30px;
 }
 
+.line36 {
+  line-height: 36px;
+}
+.line36-d {
+  @include mixins.forLargeScreen {
+    line-height: 36px;
+  }
+}
+
 .line38 {
   line-height: 38px;
 }
 
 .line43 {
   line-height: 43px;
+}
+.line43-d {
+  @include mixins.forLargeScreen {
+    line-height: 43px;
+  }
 }
 
 .ls4 {
@@ -117,6 +132,7 @@
 .f-white {
   color: variables.$white;
 }
+
 .fD-white {
   @include mixins.forLargeScreen {
     color: variables.$white;
@@ -126,6 +142,7 @@
 .f-gold {
   color: variables.$gold;
 }
+
 .fD-gold {
   @include mixins.forLargeScreen {
     color: variables.$gold;
@@ -151,6 +168,14 @@
 // Other
 .zin1 {
   z-index: 1;
+}
+
+.prevent-select {
+  user-select: none;
+}
+
+.prevent-pointer {
+  pointer-events: none;
 }
 
 

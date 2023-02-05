@@ -1,0 +1,28 @@
+@use '../utils/mixins';
+
+.testimonials_card_wrapper {
+  
+  @include mixins.forLargeScreen {
+    display: flex;
+    width: 50%;
+  }
+
+  .testimonials_card_text {
+    @include mixins.forLargeScreen {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+
+
+.testimonials--small {
+  width: 300px;
+  height: 300px;
+}
+
+.testimonials--large {
+  width: 300px;
+  height: 450px;
+}

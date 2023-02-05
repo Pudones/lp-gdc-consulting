@@ -1,6 +1,6 @@
 @use '../utils/mixins';
 
-.section_intro_wrapper {
+.intro_wrapper {
   background: url('../../assets/images/section-intro-bg.jpeg') 50% 50% no-repeat;
   background-size: cover;
   position: relative;
@@ -9,7 +9,7 @@
     background-attachment: fixed;
   }
 
-  .section_intro_container {
+  .intro_container {
     height: 100%;
     padding: 70px 28px;
     min-height: 100vh;
@@ -20,7 +20,7 @@
       padding: 60px 45px;
     }
 
-    .section_intro {
+    .intro {
       @include mixins.forLargeScreen {
         @include mixins.flexCenter;
         flex-direction: column;

@@ -1,0 +1,41 @@
+@use '../utils/variables';
+@use '../utils/mixins';
+
+.testimonials_wrapper {
+  min-height: 100vh;
+
+  .testimonials_intro {
+    @include mixins.flexCenter;
+    flex-direction: column;
+    background: url('../../assets/images/testimonials-bg.jfif') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 30vh;
+    padding: 45px 28px;
+
+    @include mixins.forLargeScreen {
+      background-attachment: fixed;
+      height: 50vh;
+    }
+  }
+
+  .testimonials_container {
+    @include mixins.flexCenter;
+    flex-direction: column;
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto;
+
+    @include mixins.forLargeScreen {
+      display: none;
+    }
+  }
+
+  .testimonials_container_d {
+    display: none;
+    @include mixins.forLargeScreen {
+      display: block;
+      min-height: 100vh;
+    }
+  }
+}

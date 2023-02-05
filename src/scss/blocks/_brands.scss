@@ -1,0 +1,20 @@
+@use '../utils/variables';
+@use '../utils/mixins';
+
+.brands_wrapper {
+  min-height: 100vh;
+  background: url('../../assets/images/brand-bg.jfif') no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @include mixins.forLargeScreen {
+    background-attachment: fixed;
+  }
+
+  .brands_container {
+    background: variables.$white;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 40px 28px;
+  }
+}

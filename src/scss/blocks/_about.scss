@@ -1,6 +1,7 @@
+@use '../utils/variables';
 @use '../utils/mixins';
 
-.section_about_wrapper {
+.about_wrapper {
   background: url('../../assets/images/about-background.jpg') no-repeat;
   background-position: center;
   background-size: cover;
@@ -11,7 +12,7 @@
     background-attachment: fixed;
   }
 
-  .section_about_container {
+  .about_container {
     max-width: 540px;
     margin: 0 auto;
 
@@ -19,7 +20,7 @@
       max-width: variables.$large;
     }
 
-    .section_about {
+    .about {
       @include mixins.forLargeScreen {
         @include mixins.flexCenter;
         align-items: center;

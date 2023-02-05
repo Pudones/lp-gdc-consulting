@@ -1,6 +1,6 @@
 @use '../utils/mixins';
 
-.section_growth_wrapper {
+.growth_wrapper {
   @include mixins.forLargeScreen {
     display: flex;
     height: 100vh;

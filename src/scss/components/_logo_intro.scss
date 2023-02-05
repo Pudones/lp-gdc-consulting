@@ -1,6 +1,6 @@
 @use '../utils/mixins';
 
-.section_intro_image {
+.intro_image {
   max-width: 100%;
 
   @include mixins.forLargeScreen {

@@ -3,7 +3,7 @@
 @use '../utils/mixins';
 
 
-.section_knowMe_wrapper {
+.knowMe_wrapper {
   background: url('../../assets/images/know-me-bg.jfif') no-repeat;
   background-size: cover;
   background-position: center center;
@@ -14,7 +14,7 @@
     background-attachment: fixed;
   }
 
-  .section_knowMe_container {
+  .knowMe_container {
     background-color: variables.$white;
     max-width: 540px;
     margin: 0 auto;
