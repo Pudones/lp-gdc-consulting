@@ -7,7 +7,7 @@
   .testimonials_intro {
     @include mixins.flexCenter;
     flex-direction: column;
-    background: url('../../assets/images/testimonials-bg.jfif') no-repeat;
+    background: url('../../assets/images/testimonials-bg.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     height: 30vh;
