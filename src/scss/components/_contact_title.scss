@@ -1,0 +1,17 @@
+@use '../utils/mixins';
+
+.contact_title {
+  position: relative;
+  height: 40vh;
+  background: url('../../assets/images/contact-bg.webp') no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  @include mixins.flexCenter;
+  flex-direction: column;
+
+  @include mixins.forLargeScreen {
+    background-attachment: fixed;
+    height: 100vh;
+    flex: 50%;
+  }
+}

@@ -1,0 +1,7 @@
+@use '../utils/mixins';
+
+.contact_wrapper {
+  @include mixins.forLargeScreen {
+    @include mixins.flexCenter;
+  }
+}

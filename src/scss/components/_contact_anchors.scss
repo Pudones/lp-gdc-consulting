@@ -1,0 +1,25 @@
+@use '../utils/mixins';
+
+.contact_anchors {
+  @include mixins.flexCenter;
+  flex-direction: column;
+
+  @include mixins.forLargeScreen {
+    flex: 50%;
+  }
+
+  .contact_anchors_item {
+    @include mixins.flexCenter;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+
+    .contact_anchors_icon {
+      max-width: 160px;
+      max-height: 160px;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+}

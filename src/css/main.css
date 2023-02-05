@@ -859,6 +859,51 @@ html {
   }
 }
 
+.contact_title {
+  position: relative;
+  height: 40vh;
+  background: url("../../assets/images/contact-bg.webp") no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .contact_title {
+    background-attachment: fixed;
+    height: 100vh;
+    flex: 50%;
+  }
+}
+
+.contact_anchors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .contact_anchors {
+    flex: 50%;
+  }
+}
+.contact_anchors .contact_anchors_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+}
+.contact_anchors .contact_anchors_item .contact_anchors_icon {
+  max-width: 160px;
+  max-height: 160px;
+  height: 100%;
+  width: 100%;
+}
+
 .intro_wrapper {
   background: url("../../assets/images/section-intro-bg.webp") 50% 50% no-repeat;
   background-size: cover;
@@ -1062,4 +1107,12 @@ html {
   max-width: 1020px;
   margin: 0 auto;
   padding: 40px 28px;
+}
+
+@media (min-width: 768px) {
+  .contact_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
