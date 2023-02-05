@@ -3,7 +3,7 @@
 .section_growth_card {
   @include mixins.flexCenter;
   position: relative;
-  background: url(../../assets/images/growth-background.png) no-repeat;
+  background: url(../../assets/images/growth-background.webp) no-repeat;
   background-size: cover;
   background-position: bottom right;
   height: 40vh;
