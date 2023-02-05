@@ -1,6 +1,6 @@
 $('.testimonials_carousel_wrapper').slick({
   dots: true,
-  arrows: true,
+  arrows: false,
   autoplay: false,
   autoplaySpeed: 1500,
   infinite: true
