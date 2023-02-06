@@ -7,6 +7,7 @@
 @use '../scss/slick/slick-theme';
 
 // Components
+@use '../scss/components/desktop_menu_item';
 @use '../scss/components/logo_intro';
 @use '../scss/components/title';
 @use '../scss/components/subtitle';
@@ -24,8 +25,8 @@
 @use '../scss/components/contact_title';
 @use '../scss/components/contact_anchors';
 
-
 // Blocks
+@use '../scss/blocks/nav_desktop';
 @use '../scss/blocks/intro';
 @use '../scss/blocks/growth';
 @use '../scss/blocks/about';

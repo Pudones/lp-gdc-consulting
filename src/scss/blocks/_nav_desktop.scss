@@ -1,0 +1,16 @@
+@use '../utils/mixins';
+
+.desktop_menu {
+  display: none;
+  
+  @include mixins.forLargeScreen {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    z-index: 3;
+  }
+}
