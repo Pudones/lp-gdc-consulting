@@ -2,9 +2,13 @@
 @use '../utils/mixins';
 
 .works_wrapper {
+  display: flex;
   background-color: variables.$beige;
+  min-height: 100vh;
 
   .works_container {
+    @include mixins.flexColumn;
+    justify-content: center;
     max-width: 540px;
     width: 100%;
     margin: 0 auto;
