@@ -23,9 +23,9 @@
     }
 
     .intro {
-      display: flex;
-      flex-direction: column;
+      @include mixins.flexColumn;
       justify-content: center;
+      
       @include mixins.forLargeScreen {
         @include mixins.flexCenter;
         flex-direction: column;

@@ -3,8 +3,7 @@
 .about_content {
 
   @include mixins.forLargeScreen {
-    display: flex;
-    flex-direction: column;
+    @include mixins.flexColumn;
     justify-content: flex-start;
     min-height: 30vh;
     width: 100%;

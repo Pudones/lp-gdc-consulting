@@ -4,8 +4,7 @@
   display: none;
   
   @include mixins.forLargeScreen {
-    display: flex;
-    flex-direction: column;
+    @include mixins.flexColumn;
     gap: 10px;
     position: fixed;
     top: 50%;
