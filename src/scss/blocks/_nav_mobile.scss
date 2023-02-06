@@ -1,0 +1,46 @@
+@use '../utils/variables';
+@use '../utils/mixins';
+
+.mobile_menu_nav {
+  background: variables.$white;
+  position: fixed;
+  top: -100%;
+  height: 80vh;
+  width: 100%;
+  z-index: 2;
+  transition: .5s;
+
+  @include mixins.forLargeScreen {
+    display: none;
+  }
+
+  ul {
+    list-style: none;
+    max-width: 80vw;
+    height: 100%;
+    margin: 0 auto;
+    padding: 70px 20px;
+
+    li {
+      a {
+        display: flex;
+        color: variables.$black;
+        text-decoration: none;
+        padding: 15px;
+        font-size: 18px;
+      }
+    }
+  }
+
+  img {
+    position: absolute;
+    width: 90px;
+    height: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.mobile-menu_nav--opened {
+  top: 0;
+}

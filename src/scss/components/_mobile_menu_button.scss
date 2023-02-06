@@ -1,0 +1,66 @@
+@use '../utils/variables';
+@use '../utils/mixins';
+
+.mobile_menu_button {
+  display: flex;
+  justify-content: center;
+  background: variables.$gray;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  border-radius: 5px;
+  z-index: 3;
+
+  @include mixins.forLargeScreen {
+    display: none;
+  }
+}
+
+.mobile_menu_bar,
+.mobile_menu_bar::before,
+.mobile_menu_bar::after {
+  display: inline-block;
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  background: white;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.mobile_menu_bar::before,
+.mobile_menu_bar::after {
+  content: '';
+}
+
+.mobile_menu_bar {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.mobile_menu_bar::before {
+  top: -7px;
+}
+
+.mobile_menu_bar::after {
+  top: 7px;
+}
+
+.mobile_menu--opened.mobile_menu_button {
+  background: none;
+}
+.mobile_menu--opened .mobile_menu_bar {
+  transform: translateX(-50px);
+  background: transparent;
+}
+.mobile_menu--opened .mobile_menu_bar::before, .mobile_menu--opened .mobile_menu_bar::after {
+  background: black;
+}
+.mobile_menu--opened .mobile_menu_bar::before {
+  transform: rotate(45deg) translate(40px, -30px);
+}
+.mobile_menu--opened .mobile_menu_bar::after {
+  transform: rotate(-45deg) translate(40px, 30px);
+}

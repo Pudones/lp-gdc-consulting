@@ -10,6 +10,8 @@
   }
 
   .intro_container {
+    display: flex;
+    justify-content: center;
     height: 100%;
     padding: 70px 28px;
     min-height: 100vh;
@@ -21,6 +23,9 @@
     }
 
     .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       @include mixins.forLargeScreen {
         @include mixins.flexCenter;
         flex-direction: column;
